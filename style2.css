@@ -1,0 +1,237 @@
+.boss-div{
+    display:flex;
+    
+}
+.horizontal-section{
+    background-color:black;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 500px;
+    
+     
+}
+.my-logo{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img{
+    height: 50px;
+    width: 160px;
+    margin-left: 100px;
+    margin-bottom: 12px;
+    margin-top: 10px;
+    
+}
+.my-home{
+    color: #ffffff;
+}
+.playlist-options{
+    font-weight:bold;
+    font-size:14px
+    
+}
+.create-liked-episodes{
+    height: 40px;
+    margin-left: 20px;
+    width: 180px;
+    border-radius: 10px;
+    font-size: small;    
+}
+.create-liked-episodes:hover{
+   scale: 1.02;
+}
+.create-liked-episodes:hover{
+    cursor: pointer;
+    
+}
+.third-hor-div{
+    background-color: black;
+    color: white;
+    width: 190px;
+    height:500px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.menu-img{
+    margin-top: 30px;
+    
+
+}
+.my-hero-section1{
+    height: 600px;
+    width: 100%;
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(16,18,18,1) 24%, rgba(0,0,0,1) 52%, rgba(94,110,108,1) 100%);
+}
+.imgs-headers{
+    margin-left: 240px;
+    margin-top: 43px;
+    display: flex;
+}
+.my-headers{
+     margin-left: 25px;
+     margin-top: 10px;
+    color: #ffffff;
+}
+.play-list-head{
+    font-size: x-small;
+    margin-left: 8px;
+}
+.big-pop{
+    margin-top: -15px;
+    font-size:50px;
+    font-weight: 650;
+}
+.my-random-text{
+    font-size: x-small;
+    margin-top: -10px;
+}
+.spotiy-stats{
+    font-size: small;
+    margin-top: -10px;
+    color: #a5a5a5;
+}
+.play-heart-dots{
+    height:50px ;
+    margin-top: 20px;
+    margin-left: 240px;
+    cursor: pointer;
+}
+.my-play-icon{
+  font-size: 40px;
+  height:40px;
+  width: 40px;
+  border-radius: 50%;
+  
+}
+.my-heart-icon {
+   font-size: 20px; 
+   margin: 16px;
+   margin-left: 30px;
+}
+.my-dots-icon{
+    font-size: 20px; 
+    margin: 16px;
+} 
+.table-and-icons{
+    height: 300px;
+    width: 100%;
+}
+.my-music-table{
+    margin-left: 240px;
+    margin-top: 10px;
+}
+
+table{
+    width: 900px;
+    color: #ffffff;
+    cursor: pointer;
+}
+td{
+    
+}
+tbody>tr:hover{
+    background-color: grey;
+    border-radius: 20px;
+
+}
+.my-song-heads{
+ font-size: xx-small;
+ margin-left: 5px;
+}
+.my-song-number{
+    margin-right: 20px;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 3px;
+    
+}
+.song-playing-button{
+    margin-top: 14px;
+    width: 10px;
+    margin-right: 25px;
+    margin-left: -5px;
+    
+}
+.first-song-image{
+    margin-top: 14px;
+}
+
+.song-name{
+    font-size: small;
+    margin-left: 8px;
+    margin-top: 10px;
+    
+}
+.singer-name{
+  font-size: x-small;
+  margin-top: -20px;
+  margin-left: px;
+}
+.song-album-name{
+    font-size: x-small;
+    margin-top: 13px;
+}
+.song-added-date{
+    font-size: x-small;
+    margin-top: 13px;
+}
+.song-added-time{
+    font-size: x-small;
+    margin-left: 100px;
+    margin-top: 13px;
+}
+.my-musical-player2{
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    margin-left: px;
+    background-color:#181818;
+
+}
+.songname{
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.songname>p{
+    font-weight: lighter;
+    font-size: small;
+}
+.my-controls{
+    margin-top: 20px;
+    margin-left: 220px;
+}
+.my-music-buttons{
+  font-size: 17px;
+  margin-inline: 30px;
+  margin-top: 10px;
+}
+.my-play-button{
+    font-size: 30px;
+}
+.my-play-button:hover{
+    cursor: pointer;
+    scale: 1.2;
+}
+.my-music-buttons:hover{
+    scale: 1.2;
+    cursor: pointer;
+    color: red;
+}
+.current-status-icons{
+    margin-left: 280px;
+    margin-top: 33px;
+    font-size: 15px;
+}
+.status-icons{
+margin-inline: 10px;
+}
